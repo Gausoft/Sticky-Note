@@ -1,0 +1,35 @@
+name: sticky
+description: Sticky Note help reminde what matters.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  hive: ^1.4.1+1
+  hive_flutter: ^0.3.0+2
+  path_provider: ^1.6.7
+  edge_alert: ^0.0.1
+  firebase_admob: ^0.9.3+2
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  
+  fonts:
+    - family: Jost
+      fonts:
+        - asset: assets/fonts/jost.ttf
+  
